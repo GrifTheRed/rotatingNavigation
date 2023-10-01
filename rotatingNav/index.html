@@ -3,11 +3,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Rotating Navigation</title>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container show-nav">
 			<div class="circle-container">
 				<div class="circle">
 					<button id="close">
@@ -18,29 +24,41 @@
 					</button>
 				</div>
 			</div>
-      <div class="content">
-        <h1>Amazing Article</h1>
-          <small>Florin Pop</small>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore temporibus impedit architecto nam adipisci amet, 
-            laborum quas placeat earum, voluptas aspernatur, officiis numquam! Suscipit dolorem voluptates vitae aut ea itaque!</p>
+			<div class="content">
+				<h1>Amazing Article</h1>
+				<small>Florin Pop</small>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+					temporibus impedit architecto nam adipisci amet, laborum quas placeat
+					earum, voluptas aspernatur, officiis numquam! Suscipit dolorem voluptates
+					vitae aut ea itaque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam libero qui,
+          quas deleniti quo eius necessitatibus blanditiis sed! Expedita ratione harum unde? Fuga asperiores
+          maxime doloremque, vero explicabo quas quam corrupti ratione iure odio dicta unde, rem optio in laudantium.
+				</p>
 
-            <h3>My Dog</h3>
-            <img src="/Multimedia/charlie.jpeg" alt="my dog: charlie">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, minima corrupti, voluptatem autem fugiat mollitia omnis 
-              sequi vero excepturi ducimus sunt veritatis rerum expedita commodi. Aperiam consequuntur sequi atque quis non reprehenderit 
-              deleniti a adipisci earum eos quibusdam molestiae recusandae incidunt, perferendis, ipsum explicabo quaerat cum praesentium ea 
-              quam unde porro? Fuga dolores eum voluptas officiis molestiae distinctio optio ipsum, quaerat fugit reiciendis exercitationem 
-              ratione dolore non voluptatem quae corporis eveniet quasi ullam enim officia molestias.</p>
-      </div>
+				<h3>My Dog</h3>
+				<img src="/Multimedia/charlie.jpeg" alt="my dog: charlie" width="450" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, minima
+					corrupti, voluptatem autem fugiat mollitia omnis sequi vero excepturi
+					ducimus sunt veritatis rerum expedita commodi. Aperiam consequuntur sequi
+					atque quis non reprehenderit deleniti a adipisci earum eos quibusdam
+					molestiae recusandae incidunt, perferendis, ipsum explicabo quaerat cum
+					praesentium ea quam unde porro? Fuga dolores eum voluptas officiis
+					molestiae distinctio optio ipsum, quaerat fugit reiciendis exercitationem
+					ratione dolore non voluptatem quae corporis eveniet quasi ullam enim
+					officia molestias.
+				</p>
+			</div>
 		</div>
 
-    <nav>
-      <ul>
-        <li><i class="fas-fa-home"></i>Home</li>
-        <li><i class="fas-fa-user-alt"></i>About</li>
-        <li><i class="fas-fa-envelope"></i>Contacts</li>
-      </ul>
-    </nav>
+		<nav>
+			<ul>
+				<li><i class="fas-fa-home"></i>Home</li>
+				<li><i class="fas-fa-user-alt"></i>About</li>
+				<li><i class="fas-fa-envelope"></i>Contacts</li>
+			</ul>
+		</nav>
 		<script src="script.js"></script>
 	</body>
 </html>
